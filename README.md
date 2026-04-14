@@ -1,17 +1,47 @@
-# todo_riverpod
+Lista de Tarefas com Riverpod
 
-A new Flutter project.
+Descrição:
+  Aplicativo desenvolvido em Flutter para gerenciamento de tarefas (To-Do List).
+  Permite ao usuário adicionar, visualizar, marcar como concluídas e remover tarefas.
 
-## Getting Started
+Funcionalidades:
+  Adicionar nova tarefa
+  Listar tarefas
+  Marcar tarefa como concluída
+  Remover tarefa
 
-This project is a starting point for a Flutter application.
+Gestão de Estado:
+Foi utilizada a biblioteca Riverpod para gerenciamento de estado.
+O controle é feito através de um StateNotifier, responsável por:
+  armazenar a lista de tarefas
+  gerenciar o status de conclusão de cada tarefa
+  
+Como executar o projeto:
+  Pré-requisitos
+  Flutter instalado
+  Um dispositivo configurado (emulador, celular ou navegador)
+  Passos:
+    Clone o repositório:
+    git clone LINK_DO_REPOSITORIO
+    Acesse a pasta do projeto:
+    cd todo_riverpod
+    Instale as dependências:
+    flutter pub get
+    Execute o projeto:
+      No navegador:
+        flutter run -d web-server
+      Ou em um dispositivo disponível:
+        flutter run
+        Caso utilize web-server, copie o link gerado no terminal e abra no navegador.
 
-A few resources to get you started if this is your first Flutter project:
+Demonstração:
+<img width="1914" height="542" alt="{58B5D12F-507D-4D0B-A1AA-57FCE5545D3A}" src="https://github.com/user-attachments/assets/b7e6b881-082b-49c7-bf3a-d19dc7049ada" />
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Tecnologias utilizadas
+Flutter
+Riverpod
+
+Autor:
+Marcel Araújod dos Santos
